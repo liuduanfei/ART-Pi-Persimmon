@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <GlobalSetting xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ProjectName="test" DefaultWinWidth="800" DefaultWinHeight="480" DefaultColorFormat="RGB888" DefaultFont="FONT16" DefaultImageFormat=".png" EditorFontSize="14" ProjectParentName="test" Language="Chinese">
+  </GlobalSetting>
+  <Solution>
+    <test SubType="Project">
+      <UI文件 SubType="UIFile">
+        <page1 SubType="PageDirectory">
+          <page1.js SubType="PageJs" />
+          <page1.ui SubType="PageUi" />
+        </page1>
+      </UI文件>
+      <app.js SubType="AppJs" />
+    </test>
+  </Solution>
+</Project>

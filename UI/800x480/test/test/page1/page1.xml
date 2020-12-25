@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rtgui version="1.4.20200918">
+<class>Page</class>
+<widget class="Page" name="page1">
+<widgets>
+<widget name="button1" class="button">
+<public>
+<property name="rect">175, 160, 132, 54</property>
+<property name="align">HORIZONTAL | VERTICAL</property>
+<property name="background">0, 212, 208, 200</property>
+</public>
+<property name="text">button1</property>
+<property name="norImg">btn_nor.9.png</property>
+<property name="downImg">btn_sel.9.png</property>
+</widget>
+<widget name="label1" class="label">
+<public>
+<property name="rect">197, 81, 89, 26</property>
+<property name="background">0, 212, 208, 200</property>
+</public>
+<property name="text">RT-Thread!</property>
+</widget>
+<widget name="slider1" class="slider">
+<public>
+<property name="rect">161, 266, 160, 30</property>
+<property name="background">0, 212, 208, 200</property>
+</public>
+<property name="minValue">0</property>
+<property name="maxValue">100</property>
+<property name="currentValue">0</property>
+<property name="norImg">slider_nor.png</property>
+<property name="barImg">slider_bar.png</property>
+<property name="sliderImg">slider_slider.png</property>
+</widget>
+<widget name="Switch1" class="Switch">
+<public>
+<property name="rect">216, 362, 50, 33</property>
+<property name="background">0, 212, 208, 200</property>
+</public>
+<property name="offBgImg">switch_off.png</property>
+<property name="onBgImg">switch_on.png</property>
+</widget>
+<widget name="QRCode1" class="QRCode">
+<public>
+<property name="rect">502, 144, 200, 200</property>
+<property name="background">0, 212, 208, 200</property>
+</public>
+<property name="source">https://github.com/liuduanfei</property>
+<property name="version">5</property>
+</widget>
+</widgets>
+</widget>
+</rtgui>
